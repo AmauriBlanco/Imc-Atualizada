@@ -1,0 +1,139 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    
+}
+
+.field{
+    background: rgba(51, 45, 139, 0.726);
+    
+    min-height: 100vh;
+    display: flex;
+}
+.conteudo{
+    margin: auto;
+    height: 650px;
+    width: 500px;
+    border-radius: 25px;
+    border: 10px solid;
+    box-shadow: 5px 5px 5px rgb(202, 198, 202);
+    
+    
+}
+
+.contentArea{
+    margin-top: 50px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+   
+   
+   
+  
+}
+
+.descAlturaEpeso{
+    font-size: 2.5rem;
+         
+}
+
+.desc{
+    text-align: center;  
+
+}
+
+
+#peso{
+    margin-top: 55px;
+    
+
+}
+
+.descInputs{
+    display: table-column;
+    justify-content: space-around;
+    
+   
+}
+.intercao{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;  
+    
+}
+
+
+#inputAltura{
+    
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bold;
+    
+}
+#inputAltura[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+#inputPeso{
+    margin-top: 70px;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bold;
+    
+}
+
+#inputPeso[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+#button{
+    border-radius: 5px;
+    margin: 10px 35px 35px;
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    color: #a7a4a4;
+    cursor: pointer;
+    border: 2px ridge;
+    border-image-slice: 1;
+    border-width: 5px;
+    
+    font-size: 1.2em;
+    font-weight:bold ;
+
+}
+#button:hover{
+    color: white;
+}
+
+
+#retornoArea{
+    padding: 20px;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 35px 35px;
+    width: 300px;
+    height: 150px;
+    box-shadow: 5px 5px 10px #000000;
+    -webkit-box-shadow: 5px 5px 10px #0000007e;
+    -moz-box-shadow: 5px 5px 10px #00000073;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+h2{
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-size: 2.5em;
+    
+}
